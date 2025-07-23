@@ -1,14 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
-body{
+
+body {
     max-width: 1440px;
     margin: 0px auto;
     border: 2px solid black;
     color: #1E1E1E;
 }
+
 .headings {
     font-family: "Noto Serif", serif;
     font-size: 50px;
@@ -29,6 +31,7 @@ body{
     align-items: center;
     margin: 30px 150px;
 }
+
 .first-section ul {
     display: flex;
     gap: 48px;
@@ -48,55 +51,67 @@ body{
 
 
 /* second section */
-.second-section{
+.second-section {
     display: flex;
     margin: 30px 150px;
     justify-content: flex-end;
     align-items: end;
     padding-top: 100px;
 }
-.second-section-first-part{
+
+.second-section-first-part {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.second-section-first-part h1{
+
+.second-section-first-part h1 {
     font-family: "Noto Serif", serif;
     font-size: 65px;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 15px;
 }
-.span-one{
+
+.span-one {
     color: #E95A08;
 }
 
 /* third section */
-.third-section{
+.third-section {
     margin: 120px 150px;
 }
-.span-two{
+
+.span-two {
     color: #E95A08;
 }
-.third-section-part-one{
+
+.third-section-part-one {
     text-align: center;
     margin-bottom: 50px;
 }
-.third-section-part-two{
+
+.third-section-part-two {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 20px;
+    max-width: 100%;
 }
-.flwrs-card img{
+
+.flwrs-card {}
+
+.flwrs-card img {
     margin-bottom: 30px;
 }
-.flwrs-card h1{
+
+.flwrs-card h1 {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #111111;
     margin-bottom: 20px;
 }
+
 .flwrs-card p {
     font-family: "Inter", sans-serif;
     font-size: 22px;
@@ -105,7 +120,7 @@ body{
     margin-bottom: 30px;
 }
 
-.card-btn{
+.card-btn {
     width: 100%;
     padding: 20px 50px;
     color: white;
@@ -113,4 +128,30 @@ body{
     border: none;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* fourth section */
+.fourth-section {
+    margin: 200px 150px;
+    display: flex;
+    gap: 100px;
+}
+
+.fourth-section-part-one {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -130px;
+    left: 350px;
+}
+.fourth-section-part-two h1{
+    margin-bottom: 20px;
+}
+.fourth-section-part-two ul li p{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
