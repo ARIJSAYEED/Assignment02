@@ -7,11 +7,12 @@ body{
     max-width: 1440px;
     margin: 0px auto;
     border: 2px solid black;
+    color: #1E1E1E;
 }
 .headings {
     font-family: "Noto Serif", serif;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .paragraph {
@@ -67,4 +68,49 @@ body{
 }
 .span-one{
     color: #E95A08;
+}
+
+/* third section */
+.third-section{
+    margin: 120px 150px;
+}
+.span-two{
+    color: #E95A08;
+}
+.third-section-part-one{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.third-section-part-two{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    gap: 20px;
+}
+.flwrs-card img{
+    margin-bottom: 30px;
+}
+.flwrs-card h1{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.flwrs-card p {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.card-btn{
+    width: 100%;
+    padding: 20px 50px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
 }
