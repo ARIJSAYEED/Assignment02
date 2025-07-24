@@ -99,6 +99,7 @@ body {
 
 .flwrs-card img {
     margin-bottom: 30px;
+    max-width: 100%;
 }
 
 .flwrs-card h1 {
@@ -148,9 +149,56 @@ body {
     margin-bottom: 20px;
 }
 
-.fourth-section-part-two ul li p {
+.uls {
+    padding: 15px;
+}
+
+.uls ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.uls ul li {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* seventh-section */
+.seventh-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.seventh-section-first-part img {
+    margin-bottom: 16px;
+}
+
+.footer-nav ul li {
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.second-img{
+    width: 25px;
+}
+.seventh-section-fourth-part{
+    text-align: start;
+}
+.social-media{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
 }

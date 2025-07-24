@@ -1,7 +1,9 @@
 @media screen and (max-width: 576px) {
 
     .first-section,
-    .third-section {
+    .third-section,
+    .fourth-section,
+    .seventh-section {
         margin: 15px;
     }
 
@@ -50,9 +52,11 @@
         margin-top: 70px;
         text-align: center;
     }
-.third-section-part-one {
-    margin-bottom: 30px;
-}
+
+    .third-section-part-one {
+        margin-bottom: 30px;
+    }
+
     .third-section-part-one h1 {
         font-size: 24px;
         margin-bottom: 16px;
@@ -76,8 +80,45 @@
         font-size: 16px;
         margin-bottom: 10px;
     }
+
     .flwrs-card p {
         font-size: 16px;
+    }
+
+    /* fourth-section */
+    .fourth-section {
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 150px;
+    }
+
+    .fourth-section-part-two h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+
+    .uls ul li {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .fourth-section-part-one img {
+        margin-bottom: 18px;
+    }
+
+    /* seventh-section */
+    .seventh-section {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+
     }
 
 }
