@@ -7,8 +7,6 @@
 body {
     max-width: 1440px;
     margin: 0px auto;
-    border: 2px solid black;
-    color: #1E1E1E;
 }
 
 .headings {
@@ -98,7 +96,6 @@ body {
     max-width: 100%;
 }
 
-.flwrs-card {}
 
 .flwrs-card img {
     margin-bottom: 30px;
@@ -127,7 +124,7 @@ body {
     background-color: #E95A08;
     border: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* fourth section */
@@ -146,10 +143,12 @@ body {
     top: -130px;
     left: 350px;
 }
-.fourth-section-part-two h1{
+
+.fourth-section-part-two h1 {
     margin-bottom: 20px;
 }
-.fourth-section-part-two ul li p{
+
+.fourth-section-part-two ul li p {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     font-weight: 400;

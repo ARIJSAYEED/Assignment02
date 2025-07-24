@@ -1,0 +1,83 @@
+@media screen and (max-width: 576px) {
+
+    .first-section,
+    .third-section {
+        margin: 15px;
+    }
+
+    .first-section ul {
+        gap: 0;
+    }
+
+    .first-section img {
+        width: 100px;
+        margin: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    /* second-section */
+    .second-section {
+        flex-direction: column-reverse;
+        margin: 0px;
+        padding: 0;
+        gap: 30px;
+    }
+
+    .second-section-first-part {
+        padding: 15px;
+    }
+
+    .second-section-first-part h1 {
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+
+    .second-section-first-part p {
+        font-size: 14px;
+    }
+
+    .second-section-second-part img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* third-section */
+    .third-section {
+        margin-top: 70px;
+        text-align: center;
+    }
+.third-section-part-one {
+    margin-bottom: 30px;
+}
+    .third-section-part-one h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .third-section-part-one p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .third-section-part-two {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .third-section img {
+        max-width: 100%;
+    }
+
+    .flwrs-card h1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .flwrs-card p {
+        font-size: 16px;
+    }
+
+}
