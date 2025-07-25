@@ -110,6 +110,10 @@ body {
     margin-bottom: 50px;
 }
 
+.third-section-part-one h1{
+    margin-bottom: 50px;
+}
+
 .third-section-part-two {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
