@@ -7,6 +7,7 @@
 body {
     max-width: 1440px;
     margin: 0px auto;
+    background-color: #67abea0f;
 }
 
 .headings {
@@ -39,14 +40,29 @@ body {
     list-style-type: none;
 }
 
-.first-section ul li a {
-    text-decoration: none;
-    color: black;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+.nav-two,
+.nav-three {
+    color: #8987A1;
+}
+.nav-one{
     font-weight: 600;
 }
-
+.nav-one, .nav-four{
+    color: black;
+}
+.nav-two,
+.nav-three,
+.nav-four {
+    font-weight: 400;
+}
+.first-section ul li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.cart-icon{
+    margin-right: 10px;
+}
 
 /* second section */
 .second-section {
@@ -126,6 +142,7 @@ body {
     border: none;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* fourth section */
@@ -329,6 +346,7 @@ body {
     background-color: #E95A08;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 input {

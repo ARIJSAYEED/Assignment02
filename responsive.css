@@ -3,6 +3,7 @@
     .first-section,
     .third-section,
     .fourth-section,
+    .fifth-section,
     .seventh-section {
         margin: 15px;
     }
@@ -109,6 +110,61 @@
 
     .fourth-section-part-one img {
         margin-bottom: 18px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* fifth-section */
+    .fifth-section-first-part {
+        margin-bottom: 50px;
+    }
+
+    .fifth-section-first-part h1 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .fifth-section-first-part p {
+        font-size: 14px;
+    }
+
+    .fifth-section-second-part {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 65px 50px;
+    }
+
+    .bloom h1,
+    .ana h1,
+    .zabo h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .bloom a,
+    .ana a,
+    .zabo a {
+        font-size: 16px;
+    }
+
+    /* sixth-section */
+    .sixth-section {
+        width: 100%;
+        padding: 100px 0px 60px 0px;
+        margin-top: 40px;
+    }
+
+    .sixth-section h1 {
+        font-size: 20px;
+    }
+
+    .sixth-section-second-part input[type="email"] {
+        width: 200px;
     }
 
     /* seventh-section */
