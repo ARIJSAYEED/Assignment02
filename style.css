@@ -167,6 +167,175 @@ body {
     margin-bottom: 20px;
 }
 
+/* fifth-section */
+.fifth-section {
+    text-align: center;
+    margin: 0px 150px;
+}
+
+.fifth-section-first-part {
+    margin-bottom: 120px;
+}
+
+.fifth-section-first-part h1 {
+    margin-bottom: 16px;
+}
+
+.span-three {
+    color: #E95A08;
+}
+
+.fifth-section-second-part {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 25px;
+    grid-template-areas:
+        "bloom zabo"
+        "ana zabo"
+    ;
+}
+
+.card {
+    position: relative;
+    background-size: cover;
+}
+
+.bloom {
+    background-image: url(assets/deal-bloom.png);
+    grid-area: bloom;
+}
+
+.ana {
+    background-image: url(assets/deal-ana.png);
+    grid-area: ana;
+}
+
+.zabo {
+    background-image: url(assets/deal-zabo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 22px;
+}
+
+.zabo {
+    grid-area: zabo;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.bloom,
+.ana {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.card-overlay-1,
+.card-overlay-2 {
+    border-radius: 14px;
+}
+
+.card-overlay-3 {
+    border-radius: 22px;
+}
+
+.bloom h1,
+.ana h1 {
+    z-index: 2;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.bloom a,
+.ana a,
+.zabo a {
+    z-index: 3;
+    color: white;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.zabo h1 {
+    z-index: 2;
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.zabo a {
+    font-size: 28px;
+}
+
+/* sixth-section */
+.sixth-section {
+    padding: 200px 300px;
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-section h1 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.sixth-section-second-part {
+    display: flex;
+    gap: 0;
+}
+
+.sixth-section-second-part input[type="email"] {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+}
+
+.sixth-section-second-part button {
+    padding: 15px 50px;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+input {
+    padding: 15px;
+}
+
+
 /* seventh-section */
 .seventh-section {
     display: flex;
@@ -190,13 +359,16 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.second-img{
+
+.second-img {
     width: 25px;
 }
-.seventh-section-fourth-part{
+
+.seventh-section-fourth-part {
     text-align: start;
 }
-.social-media{
+
+.social-media {
     display: flex;
     gap: 24px;
     align-items: center;
